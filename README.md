@@ -9,5 +9,35 @@ to the decline of Africa's economy. Therefore, in this paper, we implemented rob
 has a bank account or not. Our aim was to use advanced machine learning algorithms such as CatBoost, LightGBM, XGBoost and Adaboost classifiers. 
 We also applied oversampling and standardization techniques on the data to solve problems of unbalanced classes. The dataset is an open data 
 available on the Zindi platform. Finally, the results show that lightGBM performs better using f1-score, accuracy, precision, recall and roc score
-metrics which is 91.498%, 91.321%, 92.783%, 90%247%, and 91.568% respectively.
+metrics which is 91.498%, 91.321%, 92.783%, 90%247%, and 91.568% respectively. <br>
+
+## Dataset description
+### The dataset is collected from the online paltform called Zindi.
+```
+https://zindi.africa/competitions/financial-inclusion-in-africa/data
+```
+
+### The dataset contains 13 features including target variable
+### More description of the variables can be found in VariableDefinition.csv file
+
+### Target Varialbe is a categorical variable with object dtype.
+* Bank_account: "Yes", "No"
+
+
+## Machine Learning Algorithms Used
+* LogisticRegression
+* SupportVectorMachine
+* KNN
+* DecisionTree
+* RandomForest
+* GradientBoosting
+* XGBoost
+* HistGradientBoosting
+* AdaBoost
+
+### Model Evaluation Metrics Used
+* Precision
+* Recall 
+* Accuracy Score
+* F1-score
 
